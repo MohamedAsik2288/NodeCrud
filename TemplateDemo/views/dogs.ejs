@@ -1,0 +1,10 @@
+<%- include('partials/header') %>
+
+    <h1> All our Dogs...</h1>
+    <ul>
+        <% for (let dog of dogList) { %>
+                <li><h2><%= dog %></h2></li>
+      <%  }  %>
+    </ul>
+
+    <%- include('partials/footer') %>
